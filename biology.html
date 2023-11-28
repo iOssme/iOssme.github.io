@@ -111,6 +111,25 @@
           </label>
         </div>
       </div>
+
+        <div class="question">
+        <p>3. What is the similarity between the xylem tissue and phloem tissue in the plants' srems ?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q3" value="a" required> a) The walls of their cells contain cutin.
+          </label>
+          <label>
+            <input type="radio" name="q3" value="b"> b) Each of them is arisen from the same type of cells.
+          </label>
+          <label>
+            <input type="radio" name="q3" value="c"> c) Each of them transports the high-energy substances.
+          </label>
+          <label>
+            <input type="radio" name="q3" value="d"> d) Each of them transports the low-energy substances.
+          </label>
+        </div>
+      </div>
+        
       
       <div class="submit-btn">
        
@@ -134,13 +153,15 @@
       event.preventDefault();
       const answers = {
         q1: form.q1.value,
-        q2: form.q2.value
+        q2: form.q2.value,
+        q3: form.q3.value
       };
       
       // Process the answers
       const correctAnswers = {
         q1: 'd',
-        q2: 'c'
+        q2: 'c',
+        q3: 'b'
       };
       
       // Compare the selected answers with the correct answers
