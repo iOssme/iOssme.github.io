@@ -41,15 +41,40 @@
         font-size: 35px;    
         color: #F5EDED;
     }
-    .hello{
-        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(246, 241, 147));
+        /* DEMO-SPECIFIC STYLES */
+        .typewriter h1{
+            color:#fff;
+            font-family: monospace;
+            overflow: hidden;/* Ensures that the content is not revealed until the animation */
+            border-right: .15em solid rgb(178, 0, 248);/* The typwriter cursor */
+            white-space: nowrap; /*Keep the content on a single line*/
+            margin: 0 auto;/* Gives that scrolling effect as the typing happens */
+            letter-spacing: .15em; /* Adjust as needed */
+            animation: typing 3.5s steps(30, end),
+                       blink-caret .5s step-end infinite; 
+       
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+            from, to { border-color: transparent}
+            50% { border-color: rgb(140, 0, 255);}
+        }
+        .typewriter{
         margin-top: 10%;
         margin-bottom: 5%;
         margin-right: 20%;
         padding: 2%;
         border-radius: 20px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }
+        background-color:rgb(246, 241, 147, 0.1);
+        }
         p{
             margin-left:30px;
             color:#CCC8AA;
@@ -87,8 +112,8 @@
         <a href="https://iossme.github.io/biology.html" class="me-4 hover:underline md:me-6">bio ch2</a>
         </li>
     </ul>
-
-    <div class="hello">
+    <br><br>
+    <div class="typewriter">
     <h1><b>Hello! I'm Aser.</b></h1>  
     </div>
 <div class="About" id="About">
