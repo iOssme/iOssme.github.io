@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #040D12;
-    color: #8E05C2;
+    background-color: #000000;
+    color: #9deff3;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -57,11 +57,11 @@ h1{
     font-size: large;
 }
 a{text-decoration: none;
-color: #000000;}
+color: #F0ECE5;}
 
 .tile {
 width: 100%;
-background-color: #8E05C2;
+background-color: #76abae80;
 margin: 7px;
 border-radius: 17px;
 display: flex;
@@ -72,7 +72,7 @@ justify-content:space-between ;
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: #5C8374;
+    background-color: #110b0b;
 }
 .tile:hover{
     transition: cubic-bezier(.07, 1.41, .82, 1.41);
@@ -107,7 +107,7 @@ justify-content:space-between ;
 .icon{
     margin: 10px;
    font-size: 30px;
-   color: #5C8374;
+   color: #F0ECE5;
    justify-content: center;
 }
 
