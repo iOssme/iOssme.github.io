@@ -25,7 +25,7 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 28px;
-    background-color: #5C8374;
+    background-color: #FDF7E4;
     
 }
 .share-button:hover{
@@ -57,7 +57,7 @@ h1{
     font-size: large;
 }
 a{text-decoration: none;
-color: #93B1A6;}
+color: #8E05C2;}
 
 .tile {
 width: 100%;
