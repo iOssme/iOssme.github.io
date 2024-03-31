@@ -1,0 +1,16 @@
+        <!--new link-->
+        <!--i linke-->
+        <a class="tile" target="_blank" href=""> <!-- put the link here-->
+            <div class="icon">
+                <span class="material-symbols-outlined" id="link">
+                    link
+                </span>  
+            </div>
+            <p class="en"></p><!--name-->                   
+            <div class="tile-share-button"  link=""><!--share-link-->
+                <span class="material-symbols-outlined">
+                    ios_share
+                </span>
+            </div>
+        </a>
+    <!--i linke-->
